@@ -1,0 +1,145 @@
+ @media (min-width: 1410px)  {
+  
+
+  .top-navbar {
+    padding: 20px; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+ 
+  .navbar {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 100%;
+    background-color: white;
+    height: 85px;
+  }
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;    
+  }
+  .logo-content {
+    display: block;   
+    width: 445px;
+    margin-right: 290px;
+  }
+  .logo-images {
+    width: 120px;
+    height: 55px;
+    display: block;
+  }
+  .navbar-menu {   
+    justify-content: center;
+    align-items: center;
+  }
+  .menu a:hover {
+    color: #00730C;
+  }
+  .icon-down-arrow-company {
+    @include icon-arrow-PC ("images/icon-down-arrow-black.png");
+  }
+  .menu-text:hover .icon-down-arrow-company {
+    background-image: url(images/icon-down-arrow-green.png)
+  }
+  .btn-call-us {
+    background-color: #00730C;
+    width: 170px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px 10px 35px;
+    position: relative;
+    margin-left: 35px;
+    margin-top: 5px;
+  }
+  .icon-phone {
+    @include icon-phone-PC ("images/icon-phone.svg");
+  }
+  .mob-logo {
+    display: none;
+  }
+}
+
+  // -------------top-navbar/navbar-Mobile----------------
+ 
+@media (max-width:1200px) {
+  .header {
+      position: relative;
+      z-index: 10;
+  }
+      .top-navbar {
+          height: 55px;
+          font-size: 12px;
+          .top-navbar-contacts {
+              display: none;
+          }
+          .top-navbar-info  {
+            display: none;
+        }
+          .down-arrow-white {
+              display: none;
+          }
+          .mob-email {
+              display: block;
+              cursor: pointer;
+              @include icon-phone-mobile  ("mob-images/mobile-email-1.png", 20px, 20px, 20px, 18px);
+          }
+          .mob-phone-call {
+              display: block;
+              cursor: pointer;
+              @include icon-phone-mobile  ("mob-images/mobile-phone-call.png", 20px, 20px, 60px, 18px);
+          }
+          .mob-location {
+              display: block;
+              cursor: pointer;
+              @include icon-phone-mobile  ("mob-images/mobile-location.png", 20px, 20px, 100px, 17px);
+          }
+          .mob-down-arrow-white {
+              display: block;
+              @include icon-arrow ("mob-images/mob-icon-down-arrow-white.svg", 4px, 7px, -10px, 11px);
+          }
+      }
+
+      .navbar {
+          height: 70px;
+          .logo-images {
+              display: none;
+          }
+          .mob-logo {
+              display: block;
+              margin: 10px;
+          }
+          .btn-call-us {
+              display: none;
+          }
+          .mobile-btn-call-us {
+              background-color: #00730C;
+              width: 40px;
+              height: 34px;
+              border: 0;
+              border-radius: 10px;
+              position: relative;
+              margin: 10px;
+              cursor: pointer;
+          }
+          .mobile-btn-call-us:hover {
+              background-color: white;
+              border: 1px solid #00730C;
+          }
+          .mobile-icon-phone {
+              @include icon-phone-mobile  ("images-header-mobile/mobile-phone.png", 20px, 20px, 10px, 7px);
+          }
+          .mobile-icon-menu {
+              background-image: url("images-header-mobile/mob-menu.png");
+              position: absolute;
+              background-repeat: no-repeat;
+              width: 30px;
+              height: 30px;
+              margin: 10px 0;
+              cursor: pointer;
+          }
+      }    
+}

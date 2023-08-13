@@ -1,0 +1,244 @@
+.top-navbar {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/*.email {
+  @include iconSizePC();
+}
+
+.phone-call {
+  @include iconSizePC();
+}
+
+.location {
+  @include iconSizePC();
+}*/
+.navbar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  max-width: 100%;
+  background-color: white;
+  height: 85px;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-content {
+  display: block;
+  width: 445px;
+  margin-right: 290px;
+}
+
+.logo-images {
+  width: 120px;
+  height: 55px;
+  display: block;
+}
+
+.navbar-menu {
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a:hover {
+  color: #00730C;
+}
+
+.icon-down-arrow-company {
+  background-image: url("images/icon-down-arrow-black.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 7px;
+  width: 12px;
+  right: 3px;
+  top: 7px;
+}
+
+.menu-text:hover .icon-down-arrow-company {
+  background-image: url(images/icon-down-arrow-green.png);
+}
+
+.btn-call-us {
+  background-color: #00730C;
+  width: 170px;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 15px 10px 35px;
+  position: relative;
+  margin-left: 35px;
+  margin-top: 5px;
+}
+
+.icon-phone {
+  background-image: url("images/icon-phone.svg");
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+  left: 25px;
+  top: 8px;
+}
+
+.mob-logo {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1410px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-navbar {
+  margin: 0;
+  width: auto;
+  background-color: #0c4b35;
+  padding: 20px;
+  height: 60px;
+}
+
+.top-navbar-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  width: 1410px;
+}
+.top-navbar-content p {
+  color: white;
+  font-size: 14px;
+}
+
+.top-navbar-contacts {
+  display: flex;
+  width: 770px;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 35px;
+  position: relative;
+}
+.top-navbar-contacts div {
+  display: flex;
+}
+.top-navbar-contacts p {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.top-navbar-language {
+  display: flex;
+  align-items: center;
+}
+
+.down-arrow-white {
+  background-image: url("./images/icon-down-arrow-white.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 7px;
+  height: 3.818px;
+  margin-left: 5px;
+}
+
+.email {
+  background-image: url("./images/email-1.png");
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-right: 10px;
+}
+
+.phone-call {
+  background-image: url("./images/phone-call-1.png");
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-right: 10px;
+}
+
+.location {
+  background-image: url("./images/location-1.png");
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin-right: 10px;
+}
+
+.navbar {
+  margin: 0;
+  width: auto;
+  padding: 25px;
+}
+
+.navbar-menu {
+  display: flex;
+  width: 725px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu {
+  display: flex;
+  max-width: 100%;
+}
+
+.menu li {
+  width: 110px;
+  list-style-type: none;
+  position: relative;
+}
+
+.menu a {
+  display: block;
+  height: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.btn {
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.mob-col-bottom-navdar-btn {
+  display: none;
+}
+
+.mob-btn {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

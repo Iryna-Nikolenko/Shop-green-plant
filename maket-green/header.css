@@ -1,0 +1,22 @@
+.top-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17.5px 0;
+}
+
+.top-navbar-content {
+  width: 80%;
+}
+.top-navbar-content p {
+  color: white;
+  font-size: 14px;
+}
+
+.adress-phone div {
+  align-items: center;
+}
+.adress-phone p {
+  display: block;
+  margin-right: 30px;
+}/*# sourceMappingURL=header.css.map */
