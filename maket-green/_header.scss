@@ -22,7 +22,8 @@
     width: 100%;    
   }
   .logo-content {
-    display: block;   
+    display: flex; 
+    justify-content: left; 
   }
   .logo-images {
     width: 120px;
