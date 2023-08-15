@@ -14,7 +14,7 @@
   top: 8px;
 }
 
-@mixin icon-arrow-PC ($height, $width,$left, $top){
+@mixin icon-arrow-PC ($height, $width,$left, $top) {
   position: absolute;
   background-repeat: no-repeat;
   height: 7px;
